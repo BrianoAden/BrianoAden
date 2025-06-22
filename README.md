@@ -1,6 +1,6 @@
 ## Hello!
 
-My name is Aden Briano! I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering. 
+My name is Aden Briano, and I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering. 
 
 I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU-integrated PCB for playing the classic Snake game. At the time this README was last updated (June 2025), I was working at General Dynamics Mission Systems as a Systems Engineering Intern.
 
