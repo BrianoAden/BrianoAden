@@ -6,7 +6,7 @@ I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU
 
 I'm currently diving deeper into Verilog and C programming. If you have good resources or want to collaborate on a project, let me know!
 
-Feel free to talk to me about videogames, chess, cubing, travel, or anything you want! You can reach me by email at brianoeaden@gmail.com or message me on my LinkedIn, which can be found on this page. 
+Feel free to talk to me about video games, chess, travel, or anything you want! You can reach me by email at brianoeaden@gmail.com or message me on my LinkedIn, which can be found on this page. 
 
 Thank you for reading!
 
