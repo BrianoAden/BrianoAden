@@ -21,7 +21,7 @@ export const HeroSection = () => {
                     Briano
                     </span>
                 </h1>
-                <p className = "text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
+                <p className = "text-md md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
 
                     Welcome to my website! I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering.
                     I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU-integrated PCB for playing the classic Snake game. As of July 2025, I am currently interning at
