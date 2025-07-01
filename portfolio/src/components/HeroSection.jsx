@@ -8,6 +8,9 @@ export const HeroSection = () => {
         >
         <div className="container max-w-4xl mx-auto text-center z-10">
             <div className="space-y-6">
+            <div className="flex justify-center items-center">
+                <img src = "../../images/headshot.jpeg" className="w-75 h-75 rounded-full opacity-0 animate-fade-in-delay-1"/> 
+                </div>
                 <h1 className = "text-4xl md:text-6xl font-bold tracking-tight">
                     <span className = "opacity-0 animate-fade-in"> Hi, I'm</span>
                     <span className = "text-primary opacity-0 animate-fade-in-delay-1"> 
@@ -20,8 +23,9 @@ export const HeroSection = () => {
                 </h1>
                 <p className = "text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
 
-                    My name is Aden Briano, and I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering.
-                    I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU-integrated PCB for playing the classic Snake game.
+                    Welcome to my website! I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering.
+                    I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU-integrated PCB for playing the classic Snake game. As of July 2025, I am currently interning at
+                    General Dynamics Mission Systems as a Systems Engineering Intern. Please feel free to scroll through my projects and skills, and visit my Github + Linkedin!
 
                 </p>
                 <div className = "pt-4 opacity-0 animate-fade-in-delay-4">
