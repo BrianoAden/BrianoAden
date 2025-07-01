@@ -1,4 +1,5 @@
 import {ArrowDown} from "lucide-react";
+import Headshot from "../../public/Images/headshot.jpeg";
 
 export const HeroSection = () => {
     return (
@@ -9,7 +10,7 @@ export const HeroSection = () => {
         <div className="container max-w-4xl mx-auto text-center z-10">
             <div className="space-y-6">
             <div className="flex justify-center items-center">
-                <img src = "/Images/headshot.jpeg" className="w-75 h-75 rounded-full opacity-0 animate-fade-in-delay-1"/> 
+                <img src = {Headshot} alt = "Headshot"  className="w-75 h-75 rounded-full opacity-0 animate-fade-in-delay-1"/> 
                 </div>
                 <h1 className = "text-4xl md:text-6xl font-bold tracking-tight">
                     <span className = "opacity-0 animate-fade-in"> Hi, I'm</span>
