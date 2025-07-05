@@ -2,18 +2,29 @@ import { act, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"},
-    {name: "HTML/CSS", level: 95, category: "frontend"}
+    {name: "HTML/CSS", level: 30, category: "software"},
+    {name: "Verilog", level: 65, category: "software"},
+    {name: "Python", level: 70, category: "software"},
+    {name: "C", level: 60, category: "software"},
+    {name: "C++", level: 60, category: "software"},
+    {name: "JavaScript", level: 45, category: "software"},
+    {name: "MATLAB", level: 20, category: "software"},
+    {name: "PCB Design", level: 70, category: "hardware"},
+    {name: "Soldering", level: 90, category: "hardware"},
+    {name: "CAD/3D Printing", level: 70, category: "hardware"},
+    {name: "LTSpice", level: 70, category: "tools"},
+    {name: "KiCad", level: 60, category: "tools"},
+    {name: "EAGLE", level: 55, category: "tools"},
+    {name: "Magic", level: 60, category: "tools"},
+    {name: "Irsim", level: 60, category: "tools"},
+    {name: "Cadence Virtuoso", level: 60, category: "tools"},
+    {name: "Arduino", level: 60, category: "hardware"},
+    {name: "ESP32", level: 55, category: "hardware"},
+    {name: "Code Composer Studio", level: 60, category: "tools"},
+    {name: "MSPM0", level: 60, category: "hardware"}
 ];
 
-const categories = ["all", "frontent", "backend", "tools"]
+const categories = ["all", "software", "hardware", "tools"]
 
 
 

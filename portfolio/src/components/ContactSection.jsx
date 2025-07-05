@@ -15,52 +15,55 @@ export const ContactSection = () => {
             <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Get in<span className="text-primary"> Touch</span></h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem exercitationem impedit, accusantium alias ab iure numquam! Commodi tempora sed autem nam odit deleniti obcaecati nesciunt, eos necessitatibus itaque qui.
+                If you're looking to discuss my projects, work on something together, or chat about anything you'd like, feel free to reach out!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-8">
                     <h3 className="text-2xl font-semibold mb-6">
                         Contact Information
                     </h3>
-                    <div className="space-y-6 justify-center">
-                    <div className="flex items-start space-x-4">
+                    <div className="space-y-3 item-center justify-center">
+                    <div className="flex items-center space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Mail className="h-6 w-6 text-primary" />
                             </div>
-                            <div>
-                                <h4 className="font-medium"> Email</h4>
+                            <div className="flex flex-start justify-center items-center">
+                                <h4 className="font-medium"> Email:
                                 <a href="mailto:aeb16@rice.edu" className="text-muted-foreground hover:text-primary transition-colors">
-                                    aeb16@rice.edu
+                                    {" "}aeb16@rice.edu
                                 </a>
+                                </h4>
                             </div>
                         </div>
-                        <div className="flex items-start space-x-4">
+                        <div className="flex items-center space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Phone className="h-6 w-6 text-primary" />
                             </div>
                             <div>
-                                <h4 className="font-medium"> Phone</h4>
+                                <h4 className="font-medium"> Phone:
                                 <a href="tel:+12108960610" className="text-muted-foreground hover:text-primary transition-colors">
-                                    +1 (210) 896-0610
+                                {" "} +1 (210) 896-0610
                                 </a>
+                                </h4>
                             </div>
                         </div>
-                        <div className="flex items-start space-x-4">
+                        <div className="flex items-center space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <MapPin className="h-6 w-6 text-primary" />
                             </div>
                             <div>
-                                <h4 className="font-medium"> Location</h4>
+                                <h4 className="font-medium"> Location:
                                 <a href="mailto:aeb16@rice.edu" className="text-muted-foreground hover:text-primary transition-colors">
-                                    Houston, TX
+                                    {" "} Houston, TX
                                 </a>
+                                </h4>
                             </div>
                         </div>
                     </div>
-                    <div className="pt-8">
+                    <div>
                         <h4> Connect With Me</h4>
                         <div className="flex space-x-4 justify-center">
-                            <a href = "#" target="_blank">
+                            <a href = "https://www.linkedin.com/in/aden-briano/" target="_blank" >
                                 <Linkedin /> 
                             </a>
                         </div>

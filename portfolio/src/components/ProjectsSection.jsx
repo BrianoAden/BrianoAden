@@ -5,29 +5,29 @@ const projects = [
     {
         id: 1,
         title: "SnakeASIC",
-        description: "Snake ASIC",
-        image: "/projects",
+        description: "ASIC developed in Verilog using Controller/Datapath architecture to simulate the class Snake game!",
+        image: "projects/integrated_core.png",
+        tags: ["Magic", "Verilog"],
+        demoUrl: "assets/ELEC_422_Final_Report.pdf",
+        githubUrl: "https://github.com/BrianoAden/SnakeASIC"  
+    },
+    {
+        id: 2,
+        title: "Adder Design Competition",
+        description: "Design competition where I implemented a Full Adder and Multiplexer in various logic families to determine the design that yielded the smallest propagation delay for each device!",
+        image: "projects/Kogge_Stone.png",
         tags: [],
-        demoUrl: "#",
+        demoUrl: "assets/ELEC423_Final_Report.pdf",
         githubUrl: "#"  
     },
     {
-        id: 1,
-        title: "SnakeASIC",
-        description: "Snake ASIC",
-        image: "/projects",
+        id: 3,
+        title: "32b-RISCV",
+        description: "My current project! I am working on implementing a full 32b-RISC-V soft processor in Verilog, using Questasim to verify functionality.",
+        image: "projects/riscv.jpeg",
         tags: [],
         demoUrl: "#",
-        githubUrl: "#"  
-    },
-    {
-        id: 1,
-        title: "SnakeASIC",
-        description: "Snake ASIC",
-        image: "/projects",
-        tags: [],
-        demoUrl: "#",
-        githubUrl: "#"  
+        githubUrl: "https://github.com/BrianoAden/32bRISC-V"  
     }
 ]
 
@@ -39,21 +39,21 @@ export const ProjectsSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Featured <span className="text-primary"> Projects </span></h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti a iusto nobis quia neque necessitatibus alias saepe officia voluptatum libero culpa ut totam hic ducimus non ipsum, eligendi modi laboriosam!
+                Welcome to my projects section! Each project here is the product of much dedication and care, and has a sophisticated report and corresponding GitHub repo to explore. I hope you enjoy!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, key) => (
                     <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                         <div className="h-48 overflow-hidden">
-                            <img src={project.image} alt={project.title} className="2-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
+                            <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                         </div>
 
                         <div className="p-6">
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {project.tags.map((tag) => (
                                     <span className="px-2 py-1 text-xs font-medium rounded-full bg-secondary text-secondary-foreground">
-                                        (tag)
+                                        {tag}
                                     </span>
                                 ))}
                             </div>
