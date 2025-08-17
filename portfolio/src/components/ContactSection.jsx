@@ -11,7 +11,7 @@ export const ContactSection = () => {
         }, 1500)
     }
     return (
-        <section id="contact" className="py-24 px-4 relative bg-secondary/30">
+        <section id="contact" className="py-0 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Get in<span className="text-primary"> Touch</span></h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -22,7 +22,7 @@ export const ContactSection = () => {
                     <h3 className="text-2xl font-semibold mb-6">
                         Contact Information
                     </h3>
-                    <div className="space-y-3 item-center justify-center">
+                    <div className="space-y-4 item-center justify-center">
                     <div className="flex items-center space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Mail className="h-6 w-6 text-primary" />
