@@ -8,7 +8,7 @@ const projects = [
         description: "ASIC developed in Verilog using Controller/Datapath architecture to simulate the class Snake game!",
         image: "projects/integrated_core.png",
         tags: ["Magic", "Verilog", "Siemens Questasim", "Synopsys Design Compiler", "Irsim", "Innovus P&R"],
-        demoUrl: "assets/Snake_ASIC",
+        demoUrl: "assets/Snake_ASIC.pdf",
         githubUrl: "https://github.com/BrianoAden/SnakeASIC"  
     },
     {
