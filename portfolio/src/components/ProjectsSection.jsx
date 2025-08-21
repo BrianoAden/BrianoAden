@@ -8,7 +8,7 @@ const projects = [
         description: "ASIC developed in Verilog using Controller/Datapath architecture to simulate the class Snake game!",
         image: "projects/integrated_core.png",
         tags: ["Magic", "Verilog", "Siemens Questasim", "Synopsys Design Compiler", "Irsim", "Innovus P&R"],
-        demoUrl: "assets/ELEC_422_Final_Report.pdf",
+        demoUrl: "assets/Snake_ASIC",
         githubUrl: "https://github.com/BrianoAden/SnakeASIC"  
     },
     {
@@ -17,7 +17,7 @@ const projects = [
         description: "Design competition where I implemented a Full Adder and Multiplexer in various logic families to determine the design that yielded the smallest propagation delay for each device!",
         image: "projects/Kogge_Stone.png",
         tags: ["Cadence Virtuoso"],
-        demoUrl: "assets/ELEC423_Final_Report.pdf",
+        demoUrl: "assets/Design_Competition.pdf",
         githubUrl: "#"  
     },
     {
