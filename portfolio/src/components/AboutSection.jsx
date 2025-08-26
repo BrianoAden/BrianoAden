@@ -4,7 +4,7 @@ export const AboutSection = () => {
     return (
     <section id="about" className = "py-24 px-4 relative">
         {" "}
-        <div className="containter mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                 About <span className="text-primary"> Me</span>
             </h2>
@@ -29,7 +29,7 @@ export const AboutSection = () => {
                             Get In Touch
                         </a>
 
-                        <a href="assets/BrianoAden_Resume2025.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                        <a href="/Resume" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                             {" "}
                             Resume
                         </a>
