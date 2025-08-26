@@ -1,4 +1,5 @@
 import { Code, Handshake, Cpu} from "lucide-react"
+import { Link } from "react-router-dom"
 
 export const AboutSection = () => {
     return (
@@ -29,10 +30,10 @@ export const AboutSection = () => {
                             Get In Touch
                         </a>
 
-                        <a href="/Resume" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                        <Link to="/Resume" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                             {" "}
                             Resume
-                        </a>
+                        </Link>
                     </div>
                 </div>
                     <div className="grid grid-cols-1 gap-6">

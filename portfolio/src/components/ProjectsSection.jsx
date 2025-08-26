@@ -1,5 +1,5 @@
 import { ExternalLink, Github, ArrowRight } from "lucide-react"
-
+import { Link } from "react-router-dom"
 
 const projects = [
     {
@@ -62,8 +62,8 @@ export const ProjectsSection = () => {
                         <p className="text-muted-foreground text-sm mb-4"> {project.description} </p>
                         </div>
                             <div className="flex space-x-3 absolute bottom-0 left-5 size-12">
-                                <a href = {project.demoUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <ExternalLink size={20}/> </a>
-                                <a href = {project.githubUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <Github size={20}/> </a>
+                                <Link to = {project.demoUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <ExternalLink size={20}/> </Link>
+                                <Link to = {project.githubUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <Github size={20}/> </Link>
                             </div>
                         </div>
                     </div>
