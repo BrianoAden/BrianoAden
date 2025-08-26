@@ -62,8 +62,8 @@ export const ProjectsSection = () => {
                         <p className="text-muted-foreground text-sm mb-4"> {project.description} </p>
                         </div>
                             <div className="flex space-x-3 absolute bottom-0 left-5 size-12">
-                                <Link to = {project.demoUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <ExternalLink size={20}/> </Link>
-                                <Link to = {project.githubUrl} target = "_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <Github size={20}/> </Link>
+                                <Link to = {project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <ExternalLink size={20}/> </Link>
+                                <Link to = {project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <Github size={20}/> </Link>
                             </div>
                         </div>
                     </div>
