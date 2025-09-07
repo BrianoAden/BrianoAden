@@ -77,7 +77,7 @@ const projects = [
     {
         id: 9,
         title: "Rice Robotics Rover",
-        description: "Lead a team in the development of a power distribution system, RF comms system, and microcontroller motor control system for Rice Rover.",
+        description: "Led a team in the development of a power distribution system, RF comms system, and microcontroller motor control system for Rice Rover.",
         image: "projects/rover.png",
         tags: ["ESP32", "Motor Control", "C++", "Embedded Systems", "PCB Design", "Power Distribution", "RF Communications"],
         demoUrl: "#",
