@@ -5,7 +5,7 @@ const projects = [
     {
         id: 1,
         title: "SnakeASIC",
-        description: "ASIC developed in Verilog using Controller/Datapath architecture to simulate the class Snake game!",
+        description: "ASIC developed in Verilog using Controller/Datapath architecture to simulate the class Snake game.",
         image: "projects/integrated_core.png",
         tags: ["Magic", "Verilog", "Siemens Questasim", "Synopsys Design Compiler", "Irsim", "Innovus P&R"],
         demoUrl: "./snakeasic",
@@ -14,20 +14,47 @@ const projects = [
     {
         id: 2,
         title: "Adder Design Competition",
-        description: "Design competition where I implemented a Full Adder and Multiplexer in various logic families to determine the design that yielded the smallest propagation delay for each device!",
+        description: "Built Full Adders and MUXes in Cadence Virtuoso for a design competition, comparing logic families for fastest delay.",
         image: "projects/Kogge_Stone.png",
-        tags: ["Cadence Virtuoso"],
+        tags: ["Cadence Virtuoso", "32-Bit Adder Design", "Layout Design", "CMOS Logic Design", "Circuit Simulation and Analysis"],
         demoUrl: "./addercomp",
         githubUrl: "#"  
     },
     {
         id: 3,
+        title: "Dog Treat Launcher",
+        description: "Designed and prototyped an embedded electronics game for my dog Brady using a Pocketbeagle microcontroller and Python. ",
+        image: "projects/dogtreatlauncher.jpeg",
+        tags: ["PocketBeagle", "Python", "Shell Scripting", "Embedded Systems", "System Design and Implementation"],
+        demoUrl: "https://www.hackster.io/aden-briano/edes301-dog-treat-launcher-bcfb15",
+        githubUrl: "https://github.com/BrianoAden/Dog-Treat-Launcher"  
+    },
+    {
+        id: 4,
         title: "32b-RISCV",
         description: "My current project! I am working on implementing a full 32b-RISC-V soft processor in Verilog, using Questasim to verify functionality.",
         image: "projects/riscv.jpeg",
-        tags: ["Magic", "Verilog", "Questasim", "Irsim", "Innovus P&R", "Computer Architecture", "RISC-V"],
+        tags: ["Magic", "Verilog", "Siemens Questasim", "Irsim", "Innovus P&R", "RISC-V", "Computer Architecture"],
         demoUrl: "#",
         githubUrl: "https://github.com/BrianoAden/32bRISC-V"  
+    },
+    {
+        id: 5,
+        title: "D&D Discord Bot",
+        description: "Worked in a team to build a Discord bot to facilitate online D&D in under 48 hours for the HackRice Hackathon. Won the First Timers category.",
+        image: "projects/dndbot.png",
+        tags: ["Python", "Object Oriented Programming", "Discord API", "GitHub", "Version Control", "Time Management"],
+        demoUrl: "https://devpost.com/software/dungeons-and-dragons-discord-bot",
+        githubUrl: "https://github.com/BrianoAden/dnd-discord-bot"  
+    },
+    {
+        id: 6,
+        title: "Tennis Ball Analyzer",
+        description: "Went through product lifecyle for low power, Tennis Ball Analyzer. Exercised technical writing, requirements development and system design skills.",
+        image: "projects/tennisball.jpeg",
+        tags: ["ESP32", "Embedded Systems", "Arduino", "Product Development", "C++", "System Requirements and Verification"],
+        demoUrl: "https://rice.digication.com/aden-briano-1/design-analysis-stage",
+        githubUrl: "https://github.com/BrianoAden/TennisBallAnalyzer"  
     }
 ]
 
@@ -59,7 +86,7 @@ export const ProjectsSection = () => {
                             </div>
                             <div className="">
                         <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                        <p className="text-muted-foreground text-sm mb-4"> {project.description} </p>
+                        <p className="text-muted-foreground text-sm mb-0"> {project.description} </p>
                         </div>
                             <div className="flex space-x-3 absolute bottom-0 left-5 size-12">
                                 <Link to = {project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300 bottom"> <ExternalLink size={20}/> </Link>
