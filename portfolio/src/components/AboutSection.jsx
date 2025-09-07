@@ -15,7 +15,7 @@ export const AboutSection = () => {
                     <h3 className="text-2xl font-semibold">All About Me!</h3>
 
                     <p className="text-muted-foreground">
-                    I am a current Rising Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering.
+                    I am a current Senior at Rice University in Houston, TX, studying Electrical and Computer Engineering.
                     I'm currently working on a 32-bit RISC-V soft processor, as well as a custom MCU-integrated PCB for playing the classic Snake game. As of July 2025, I am currently interning at
                     General Dynamics Mission Systems as a Systems Engineering Intern. Please feel free to scroll through my projects and skills, and visit my Github + Linkedin!
                     </p>

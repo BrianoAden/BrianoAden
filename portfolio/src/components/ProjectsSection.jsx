@@ -25,7 +25,7 @@ const projects = [
         title: "Dog Treat Launcher",
         description: "Designed and prototyped an embedded electronics game for my dog Brady using a Pocketbeagle microcontroller and Python. ",
         image: "projects/dogtreatlauncher.jpeg",
-        tags: ["PocketBeagle", "Python", "Shell Scripting", "Embedded Systems", "System Design and Implementation"],
+        tags: ["PocketBeagle", "Python", "PCB Design", "Shell Scripting", "Embedded Systems", "System Design and Implementation"],
         demoUrl: "https://www.hackster.io/aden-briano/edes301-dog-treat-launcher-bcfb15",
         githubUrl: "https://github.com/BrianoAden/Dog-Treat-Launcher"  
     },
@@ -55,6 +55,33 @@ const projects = [
         tags: ["ESP32", "Embedded Systems", "Arduino", "Product Development", "C++", "System Requirements and Verification"],
         demoUrl: "https://rice.digication.com/aden-briano-1/design-analysis-stage",
         githubUrl: "https://github.com/BrianoAden/TennisBallAnalyzer"  
+    },
+    {
+        id: 7,
+        title: "16b Single Cycle Processor",
+        description: "Developed and tested a 16-bit single cycle processor in Verilog and programmed using AMD Vivado onto a Real Digital Boolean Board.",
+        image: "projects/16b.jpeg",
+        tags: ["Verilog", "AMD Vivado", "Assembly", "Computer Architecture", "SystemVerilog", "FPGA Programming"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/BrianoAden/16-b-Processor"  
+    },
+    {
+        id: 8,
+        title: "Radar Gun",
+        description: "Developed and tested a Radar Gun for testing speed of Rice Beer Bike Competitors. Exercised PCB design and embedded electronics skills. ",
+        image: "projects/radar.png",
+        tags: ["TI Microcontroller", "Embedded Systems", "C", "Product Development", "PCB Design", "Finite State Machine Architecture"],
+        demoUrl: "https://nkh5.github.io/ELEC327-Final-Project/",
+        githubUrl: "https://github.com/BrianoAden/RadarGun"  
+    },
+    {
+        id: 9,
+        title: "Rice Robotics Rover",
+        description: "Lead a team in the development of a power distribution system, RF comms system, and microcontroller motor control system for Rice Rover.",
+        image: "projects/rover.png",
+        tags: ["ESP32", "Motor Control", "C++", "Embedded Systems", "PCB Design", "Power Distribution", "RF Communications"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/BrianoAden/Rover-ELEC"  
     }
 ]
 
